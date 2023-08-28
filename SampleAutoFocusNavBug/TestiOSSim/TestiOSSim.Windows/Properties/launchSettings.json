@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "TestiOSSim.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

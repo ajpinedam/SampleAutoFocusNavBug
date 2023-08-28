@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="TestiOSSim.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	RequestedTheme="Dark"
+	xmlns:local="using:TestiOSSim">
+	
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+                <!-- Add resource dictionaries here -->
+
+				<ResourceDictionary Source="Animations.xaml" />
+				<ResourceDictionary Source="Frame.xaml" />
+			</ResourceDictionary.MergedDictionaries>
+            <!-- Add resources here -->
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
